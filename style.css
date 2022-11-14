@@ -12,9 +12,11 @@ coloque nas sessões indicadas*/
     --transition: all 1s ease-in-out;
     --color-primary: #0593d3;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo);
@@ -223,10 +225,14 @@ section.about {
     color: #f0f2fc;
     text-align: justify;
     font-size: 30px;
-   
+
 }
-.about__title{
+
+.about__title {
     margin-bottom: 105px;
+    background: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -242,7 +248,7 @@ section.about {
     width: 50%;
     min-height: 50vh;
     padding: 30px;
-}    
+}
 
 .skills__line {
     display: flex;
@@ -267,6 +273,7 @@ section.about {
 
 
 }
+
 .skills_list {
     display: flex;
     flex-direction: column;
@@ -286,7 +293,7 @@ section.about {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image:  url(../assets/pared_fondo.jpg);
+    background-image: url(../assets/pared_fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -334,7 +341,7 @@ section.academic {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .academic__courses__box {
@@ -347,43 +354,46 @@ section.academic {
     margin-top: 20px;
 }
 
-.academic__courses__item__title{
+.academic__courses__item__title {
     padding: 3px;
     height: 25px;
-    margin: 8px;
-   
-} 
+    margin: 15px;
 
-.academic__courses__item__subtitle{
-   
-    padding: 18px;
+}
+
+.academic__courses__item__subtitle {
+    
+    padding:28px;
+    
 }
 
 .academic__courses__item__img {
     width: 70%;
     padding: 2px;
     margin: 25px;
-    
+
 }
 
 /* experiencia*/
 section.experience {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     width: 90%;
 }
-.experience__section__list{
+
+.experience__section__list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 80px;
-    
+
 }
-.experiencie__box{
+
+.experiencie__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -394,13 +404,15 @@ section.experience {
     padding: 15px;
     text-align: center;
 }
-.experience__img{
+
+.experience__img {
     max-width: 800px;
 }
-.experience__description{
-display: flex;
-justify-content: space-between;
-margin: 15px 0 ;
+
+.experience__description {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
 }
 
 
